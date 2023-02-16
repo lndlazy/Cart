@@ -23,7 +23,7 @@ class CartActivity : BaseActivity() {
 
         findViewById<Button>(R.id.btn).setOnClickListener {
             //cart跳转到首页
-            ARouter.getInstance().build("home/homeActivity")
+            ARouter.getInstance().build("/home/homeActivity")
                 .withString("str", "cartActivity跳转过来的")
                 .withInt("int", 555)
                 .withBoolean("boolean", true)
