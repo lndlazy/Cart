@@ -13,7 +13,7 @@ class CartActivity : BaseActivity() {
         val stringExtra = intent.getStringExtra("str")
         val intExtra = intent.getIntExtra("int", -1)
         val booleanExtra = intent.getBooleanExtra("boolean", false)
-        println("str:$stringExtra, intExtra:${intExtra}, booleanExtra:$booleanExtra")
+        println("CartActivity ==>>> str:$stringExtra, intExtra:${intExtra}, booleanExtra:$booleanExtra")
 
     }
 
