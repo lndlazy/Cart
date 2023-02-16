@@ -5,7 +5,7 @@ import com.alibaba.android.arouter.facade.annotation.Route
 import com.alibaba.android.arouter.launcher.ARouter
 import com.lee.commontest.base.BaseActivity
 
-@Route(path = "cart/cartActivity")
+@Route(path = "/cart/cartActivity")
 class CartActivity : BaseActivity() {
 
     override fun getViewId(): Int = R.layout.activity_cart

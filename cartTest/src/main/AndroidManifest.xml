@@ -3,6 +3,8 @@
     package="com.lee.carttest">
 
     <application>
-        <activity android:name=".CartActivity" />
+        <activity android:name=".CartActivity"
+            android:exported="true"
+            />
     </application>
 </manifest>
