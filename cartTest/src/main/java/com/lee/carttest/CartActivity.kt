@@ -4,8 +4,9 @@ import android.widget.Button
 import com.alibaba.android.arouter.facade.annotation.Route
 import com.alibaba.android.arouter.launcher.ARouter
 import com.lee.commontest.base.BaseActivity
+import com.lee.export_cart.route.PATH_PAGE_CART
 
-@Route(path = "/cart/cartActivity")
+@Route(path = PATH_PAGE_CART)
 class CartActivity : BaseActivity() {
 
     override fun getViewId(): Int = R.layout.activity_cart
