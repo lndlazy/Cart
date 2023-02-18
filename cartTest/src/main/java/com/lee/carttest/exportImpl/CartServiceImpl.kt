@@ -1,16 +1,18 @@
 package com.lee.carttest.exportImpl
 
 import android.content.Context
+import com.alibaba.android.arouter.facade.annotation.Route
 import com.lee.export_cart.ICartService
 import com.lee.export_cart.bean.CartInfo
+import com.lee.export_cart.route.PATH_SERVICE_CART
 
 
 /**
  * 购物车组件服务的实现
  * 需要@Route注解、指定CartRouterTable中定义的服务路由
  */
+@Route(path = PATH_SERVICE_CART)
 class CartServiceImpl : ICartService {
-
 
     override fun getProductCountInCar(): CartInfo {
         //这里实际项目中 应该是 请求接口 或查询数据库
